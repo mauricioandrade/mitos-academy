@@ -1,4 +1,4 @@
-package riot.dto;
+package com.mitosacademy.ranking.riot.dto;
 
 public class LeagueEntryDTO {
 

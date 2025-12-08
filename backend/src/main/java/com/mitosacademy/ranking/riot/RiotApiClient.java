@@ -1,11 +1,11 @@
-package riot;
+package com.mitosacademy.ranking.riot;
 
-import config.RiotApiProperties;
+import com.mitosacademy.ranking.config.RiotApiProperties;
+import com.mitosacademy.ranking.riot.dto.LeagueListDTO;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.MediaType;
 import org.springframework.stereotype.Component;
 import org.springframework.web.client.RestClient;
-import riot.dto.LeagueListDTO;
 
 @Component
 public class RiotApiClient {
