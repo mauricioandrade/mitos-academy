@@ -1,9 +1,9 @@
-package api;
+package com.mitosacademy.ranking.api;
 
-import domain.PlayerRanking;
+import com.mitosacademy.ranking.domain.PlayerRanking;
+import com.mitosacademy.ranking.service.RankingService;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
-import service.RankingService;
 
 import java.util.List;
 
