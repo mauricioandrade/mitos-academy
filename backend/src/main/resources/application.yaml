@@ -1,3 +1,10 @@
+server:
+  port: 8080
+
 spring:
   application:
-    name: ranking
+    name: mitos-academy-ranking
+
+riot:
+  api-key: ${RIOT_API_KEY:}
+  region: br1
